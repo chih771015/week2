@@ -1,0 +1,24 @@
+1.	protocol PoliceMan {
+    	func arrestCriminals()
+	}
+	struct Person {
+    	let name: String    
+    }
+2.	struct Person:PoliceMan {
+	    let name: String    
+	    func arrestCriminals()
+	}
+3.	protocol ToolMan {
+    	func fixComputer()
+	}
+4.	struct Person: PoliceMan, PersonalInformation {
+    	let name: String
+    	let toolMan: ToolMan
+    	func arrestCriminals(){}
+	}
+5.	struct Engineer: ToolMan {    
+    	func fixComputer(){}
+    }
+6.	let personSteven = Person(name: "Steven", toolMan: Engineer())
+	我還有額外使用protocol 產生其他有關身高體重的property
+	請看Xcode的程式檔

@@ -1,0 +1,5 @@
+因為Swift4好像有優化的關係
+
+他一直建議把let xx = 建議換成 != nil
+
+程式都在playground裡

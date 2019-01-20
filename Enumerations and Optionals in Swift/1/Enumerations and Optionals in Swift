@@ -1,0 +1,11 @@
+全部使用的程式碼都在Xcode的playground裡面
+
+associate value 在創建Enum的時候 於數值後面括號使用type型態 
+
+可以額外儲存所需要的定值
+
+以方便交換使用或紀錄
+
+最常使用的範例是QRcode
+
+實際動作方式也在playground裡面附上 
